@@ -13,6 +13,10 @@
     "cal:kovan":"npx hardhat run scripts/commitAbtList.js --network kovan",
     "gal":"npx hardhat run scripts/getAbtList.js",
     "gal:kovan":"npx hardhat run scripts/getAbtList.js --network kovan",
+    "wd":"npx hardhat run scripts/withDraw.js",
+    "wd:kovan":"npx hardhat run scripts/withDraw.js --network kovan",
+    "s2a":"npx hardhat run scripts/sendEth2Address.js",
+    "s2a:kovan":"npx hardhat run scripts/sendEth2Address.js --network kovan",
     "clean": "rimraf ./cache-ovm ./cache ./artifacts-ovm ./artifacts ./deployments"
   },
   "devDependencies": {
